@@ -1,0 +1,121 @@
+{
+  "coordinators": [
+    {
+      "name": "Hugo Daniel Macedo",
+      "email": "hugodm@di.uminho.pt",
+      "githubId": "idhugoid",
+      "projeto": ["LNCP", "VSCODE", "LLT", "DDL", "LLMReq", "OTT"],
+      "cargo": "Coordinator"
+    },
+    {
+      "email": "lfc@di.uminho.pt",
+      "githubId": "lfcc1",
+      "projeto": null,
+      "cargo": "Member"
+    }
+   ],
+  "rstudents": [
+    {
+      "githubId": "eduardaspereira",
+      "projeto": "LNCP"
+    },
+    {
+      "githubId": "Goncaloefm11",
+      "projeto": "LNCP"
+    },
+    {
+      "githubId": "joao-mg",
+      "projeto": "VSCODE"
+    },
+    {
+      "githubId": "hgp22",
+      "projeto": "VSCODE"
+    },
+    {
+      "githubId": "Pina07",
+      "projeto": "VSCODE"
+    },
+    {
+      "githubId": "Luis-Barros9",
+      "projeto": "LLT"
+    },
+    {
+      "githubId": "jLopes03",
+      "projeto": "LLT"
+    },
+    {
+      "githubId": "duartearaujo",
+      "projeto": "DDL"
+    },
+    {
+      "githubId": null,
+      "projeto": "DDL"
+    },
+    {
+      "githubId": "talex-01",
+      "projeto": "LLMReq"
+    },
+    {
+      "githubId": "bekogod",
+      "projeto": "LLMReq"
+    },
+    {
+      "githubId": "",
+      "projeto": "OTT"
+    },
+    {
+      "githubId": "",
+      "projeto": "OTT"
+    }
+  ],
+  "projetos": [
+    {
+      "id": "LNCP",
+      "titulo": "Project on Controlled Natural Language for Portuguese",
+      "descricao": "Researches controlled natural language techniques to support clearer, more formal communication in Portuguese and improve language-processing workflows.",
+      "status": "In progress",
+      "resultado": "Report",
+      "github": "https://github.com/LE-Lab-UM/LNCP"
+    },
+    {
+      "id": "VSCODE",
+      "titulo": "VSCode Extension for OntoDL",
+      "descricao": "Develops a tooling environment for authoring and validating OntoDL models directly inside Visual Studio Code, making ontology work more accessible.",
+      "status": "In progress",
+      "resultado": "Article",
+      "github": "https://github.com/LE-Lab-UM/ontodl-vscode"
+    },
+    {
+      "id": "LLT",
+      "titulo": "Evaluation of local LLM performance for translation",
+      "descricao": "Measures how well local language models perform in translation tasks and compares quality, latency, and practical deployment trade-offs.",
+      "status": "In progress",
+      "resultado": "Survey",
+      "github": "https://github.com/LE-Lab-UM/LLT"
+    },
+    {
+      "id": "DDL",
+      "titulo": "Evaluation of tools for Defeasible Deontic Logic support",
+      "descricao": "Explores existing tooling and frameworks for defeasible deontic logic, assessing their usability and support for formal reasoning tasks.",
+      "status": "In progress",
+      "resultado": "Survey",
+      "github": "https://github.com/LE-Lab-UM/DDL"
+    },
+    {
+      "id": "LLMReq",
+      "titulo": "Survey of tools for natural language requirements formalization",
+      "descricao": "Reviews tools and methods that transform natural-language requirements into formal specifications, with a focus on reliability and practical adoption.",
+      "status": "In progress",
+      "resultado": "Survey",
+      "github": "https://github.com/LE-Lab-UM/LLMReq"
+    },
+    {
+      "id": "OTT",
+      "titulo": "Development of an open-source educational translation tool",
+      "descricao": "Creates a student-oriented translation support tool to teach practical translation workflows while promoting open-source and educational use cases.",
+      "status": "In progress",
+      "resultado": "Report",
+      "github": "https://github.com/LE-Lab-UM/OTT"
+    }
+  ]
+}
