@@ -5,12 +5,14 @@
       "email": "hugodm@di.uminho.pt",
       "githubId": "idhugoid",
       "projeto": ["LNCP", "VSCODE", "LLT", "DDL", "LLMReq", "OTT"],
-      "cargo": "Coordinator"
+      "cargo": "Coordinator",
+      "position" : "Assistant Professor"
     },
     {
       "email": "lfc@di.uminho.pt",
       "githubId": "lfcc1",
       "projeto": null,
+      "position" : "Invited Assistant Professor",
       "cargo": "Member"
     }
    ],
@@ -48,7 +50,7 @@
       "projeto": "DDL"
     },
     {
-      "githubId": null,
+      "githubId": "gramosomi",
       "projeto": "DDL"
     },
     {

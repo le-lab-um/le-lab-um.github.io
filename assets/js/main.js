@@ -44,6 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
             name: localName || await getGithubName(person.githubId),
             github: person.githubId,
             role: person.cargo || `Project: ${projectMap[person.projeto] || person.projeto || fallbackRole}`,
+            position: person.position,
             image: ""
           };
         };
@@ -100,6 +101,9 @@ document.addEventListener("DOMContentLoaded", () => {
             const role = document.createElement("p");
             role.textContent = person.role;
 
+            const position = document.createElement("p");
+            position.textContent = person.position;
+
             const link = document.createElement("a");
             link.className = "person-link";
             link.href = githubUrl;
@@ -107,7 +111,9 @@ document.addEventListener("DOMContentLoaded", () => {
             link.rel = "noopener noreferrer";
             link.textContent = `GitHub: @${person.github}`;
 
-            body.append(heading, photo, role, link);
+            body.append(heading, photo);
+            if (person.position) body.append(position);
+            body.append(role, link);
             card.append(body);
 
             container.appendChild(card);
